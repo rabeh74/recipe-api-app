@@ -1,0 +1,6 @@
+[flake8]
+exclude =
+    migrayions,
+    manage.py,
+    settings.py,
+    __pycashe__,
