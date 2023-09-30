@@ -19,6 +19,7 @@ services:
       - DB_NAME=devdb
       - DB_USER=devuser
       - DB_PASS=devpass
+
     depends_on:
       - db
   db:
@@ -32,4 +33,5 @@ services:
 volumes:
   dev-db-data:
   dev-static-data:
+
 
